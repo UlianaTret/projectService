@@ -1,0 +1,256 @@
+html {
+    position: absolute;
+    width: 768px;
+    height: 504px;
+    left: 0px;
+    top: 0px;
+    background: #F8F8F8;
+    font-family: 'TT Lakes';
+    font-weight: 200;
+}
+
+.menu {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 85.26%;
+    height: 88px;
+    width: 768px;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
+.menu__shadow{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    /*top: 14.57%;*/
+    bottom: 85.26%;
+    height: 1px;
+    width: 320px;
+    top: 87px;
+    border-radius: 0px;
+    background: #D9FFF5;
+}
+.icon-menu__background{
+    position: absolute;
+    left: 3.06%;
+    right: 91.84%;
+    top: 24px;
+    bottom: 87.3%;
+    border-radius: 20px;
+}
+.logo{
+    position: absolute;
+    left: 13.61%;
+    right: 74.07%;
+    top: 18.59px;
+    bottom: 86.23%;
+    background: rgba(100%,100%,100%,0);
+    border: rgba(100%,100%,100%,0);
+}
+.divider1 {
+    position: absolute;
+    width: 2px;
+    left: 10.71%;
+    right: 86.99%;
+    top: 28px;
+    bottom: 88.1%;
+    background: #EAEAEA;
+    border-radius: 1px;
+}
+.divider2 {
+    position: absolute;
+    width: 2px;
+    left: 79.85%;
+    right: 17.86%;
+    top: 28px;
+    bottom: 88.1%;
+    background: #EAEAEA;
+    border-radius: 1px;
+}
+.call{
+    position: absolute;
+    left: 57.91%;
+    right: 36.99%;
+    top: 24px;
+    bottom: 87.3%;
+    border-radius: 20px;
+}
+.chat{
+    position: absolute;
+    left: 65.05%;
+    right: 29.85%;
+    top: 24px;
+    bottom: 87.3%;
+}
+.profile{
+    position: absolute;
+    left: 72.19%;
+    right: 22.7%;
+    top: 24px;
+    bottom: 87.3%;
+    border-radius: 20px;
+}
+.icon-repair__background{
+    position: absolute;
+    left: 82.65%;
+    right: 12.24%;
+    top: 24px;
+    bottom: 87.3%;
+    border-radius: 20px;
+}
+.icon-status-repair__background{
+    position: absolute;
+    left: 89.8%;
+    right: 5.1%;
+    top: 24px;
+    bottom: 87.3%;
+    border-radius: 20px;
+}
+
+.background-page{
+    position: absolute;
+    width: 768px;
+    height: 415px;
+    left: 0px;
+    top: 88px;
+    background: #F8F8F8;
+}
+
+.Title__Copy{
+    display: flex;
+}
+.Title__Copy-Fill{
+    position: absolute;
+    height: 40px;
+    width: 4px;
+    left: 0px;
+    top: 24px;
+    background: #41F6D7;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.Title__Copy-text{
+    position: absolute;
+    height: 40px;
+    width: 288px;
+    left: 3.06%;
+    top: 8px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    padding: 0px;
+}
+
+nav input{
+    white-space: nowrap;
+    padding: 5px 17px 5px 17px;
+    background: rgba(0,0,0,0);
+    border: 2px solid rgba(0,0,0,0);
+    height: 40px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #7E7E82;
+}
+.slide-menu{
+    position: absolute;
+    width: 768px;
+    height: 40px;
+    left: 24px;
+    top: 96px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.slide-menu__opacity{
+    position: absolute;
+    left: 92.5%;
+    right: 0%;
+    top: 20%;
+    bottom: 63.82%;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%); /*F8F8F8*/
+    height: 29px;
+    z-index: 100;
+}
+.slide-menu::-webkit-scrollbar {
+    display: none;
+}
+.slide-menu__item1{
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+
+.block1{
+    position: absolute;
+    height: 267px;
+    width: 769px;
+    left: 0px;
+    top: 148px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.block1__infoCPS{
+    position: absolute;
+    width: 310px;
+    height: 160px;
+    left: 24px;
+    top: 10px;
+    text-align: left;
+    border-radius: 0px;
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+.link__icon-read-further{
+    position: absolute;
+    left: 4.25%;
+    right: 94.81%;
+    top: 201px;
+    bottom: 11.99%;
+    background: rgba(0,0,0,0);
+}
+.link__read-more{
+    position: absolute;
+    left: 7.27%;
+    right: 79.97%;
+    top: 194px;
+    bottom: 10.71%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.block1__background-img {
+    position: absolute;
+    left: 384px; /*48.98%;*/
+    right: 5.1%;
+    top: 20px;
+    bottom: 2.85%;
+    width: 360px;
+    border-radius: 6px;
+}

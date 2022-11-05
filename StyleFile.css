@@ -1,0 +1,156 @@
+
+html {
+    font-family: sans-serif; /*'TT Lakes';*/
+}
+
+section /*h1, a.link-up*/ {
+    display: flex;
+}
+
+h1{
+    position: absolute;
+    height: 40px;
+    left: 2.94%;
+    right: 76.27%;
+    top: calc(50% - 40px/2 - 205.5px);
+
+    font-family: 'TT Lakes';
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: -0.6px;
+
+    color: #1B1C21;
+}
+
+a.link-up {
+    position: absolute;
+    height: 24px;
+    left: 63.87%;
+    right: 24.98%;
+    top: calc(50% - 24px/2 - 205.5px);
+
+    /*font-family: 'TT Lakes';*/
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+}
+
+a.link-up0 {
+    position: absolute;
+    height: 24px;
+    left: 82.16%;
+    right: 7.23%;
+    top: calc(50% - 24px/2 - 205.5px);
+
+    /*font-family: 'TT Lakes';*/
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+}
+
+
+nav a.active-box{
+    box-sizing: border-box;
+    padding: 2px;
+    /*position: absolute;*/
+    height: 100px;
+    width: 100px;
+    /*left: 266px;
+    right: 622px;*/
+    top: calc(50% - 40px/2 - 157.13px);
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+nav a .box-nav{
+    display: flex;
+    /*box-sizing: border-box;
+
+    position: absolute;
+    height: 40px;
+    left: 266px;
+    right: 622px;
+    top: calc(50% - 40px/2 - 157.13px);
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-size: 16px;
+    line-height: 24px;*/
+}
+
+.left-img{
+    position: absolute;
+    height: 160px;
+    left: 3.12%;
+    right: 53.17%;
+    top: calc(50% - 160px/2 + 0.72px);
+    font-family: sans-serif, 'TT Lakes';
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+}
+
+.read-more{
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 65px;
+    top: 362px;
+    font-family: sans-serif, 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+
+body {
+    /*padding: 20px 50px;
+    font-family: "PT Sans", "Arial", sans-serif; /*TT Lakes*/
+    position: absolute;
+    width: 1120px;
+    height: 535px;
+    left: 1px;
+    top: 0px;
+
+    background: #F8F8F8;
+}
+
+.back{
+    position: absolute;
+    width: 769px;
+    height: 416px;
+    left: 0px;
+    top: 88px;
+    background: #F8F8F8;
+}
+
+img.one-img{
+    position: absolute;
+    left: 50.04%;
+    right: 2.56%;
+    top: 26.29%;
+    bottom: 2.08%;
+}
+a {
+    color: #7E7E82;
+}
+
+
+

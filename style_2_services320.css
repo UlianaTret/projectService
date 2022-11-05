@@ -1,0 +1,211 @@
+html {
+    position: absolute;
+    width: 320px;
+    height: 597px;
+    left: 0px;
+    top: 0px;
+    background: #F8F8F8;
+    font-family: 'TT Lakes';
+    font-weight: 200;
+}
+
+.menu {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 85.26%;
+    height: 88px;
+    width: 320px;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
+.menu__shadow{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 85.26%;
+    height: 1px;
+    width: 320px;
+    top: 87px;
+    border-radius: 0px;
+    background: #D9FFF5;
+}
+.icon-menu__background{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 16px;
+    top: 24px;
+    border-radius: 20px;
+}
+.logo{
+    position: absolute;
+    left: 22.73%;
+    right: 47.1%;
+    top: 18.59px;
+    bottom: 88.37%;
+    background: rgba(100%,100%,100%,0);
+    border: rgba(100%,100%,100%,0);
+}
+.divider {
+    position: absolute;
+    left: 58.12%;
+    right: 41.25%;
+    top: 28px;
+    bottom: 89.95%;
+    background: #EAEAEA;
+    border-radius: 1px;
+}
+.icon-repair__background{
+    position: absolute;
+    left: 65%;
+    right: 22.5%;
+    top: 24px;
+    bottom: 89.28%;
+    border-radius: 20px;
+}
+.icon-status-repair__background{
+    position: absolute;
+    left: 82.5%;
+    right: 5%;
+    top: 24px;
+    bottom: 89.28%;
+    border-radius: 20px;
+}
+
+.background-page{
+    position: absolute;
+    width: 320px;
+    height: 509px;
+    left: 0px;
+    top: 88px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title__Copy{
+    display: flex;
+}
+.Title__Copy-Fill{
+    position: absolute;
+    height: 40px;
+    width: 4px;
+    left: 0px;
+    top: 24px;
+    background: #41F6D7;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.Title__Copy-text{
+    position: absolute;
+    height: 40px;
+    width: 288px;
+    left: 16px;
+    top: 6px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+}
+
+nav input{
+    white-space: nowrap;
+    padding: 5px 17px 5px 17px;
+    background: rgba(0,0,0,0);
+    border: 2px solid rgba(0,0,0,0);
+    height: 40px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #7E7E82;
+}
+.slide-menu{
+    position: absolute;
+    width: 304px;
+    height: 40px;
+    left: 16px;
+    top: 88px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.slide-menu__opacity{
+    position: absolute;
+    left: 92.5%;
+    right: 0%;
+    top: 20%;
+    bottom: 63.82%;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%); /*F8F8F8*/
+    height: 29px;
+    z-index: 100;
+}
+.slide-menu::-webkit-scrollbar {
+    display: none;
+}
+.slide-menu__item1{
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+
+.block1{
+    position: absolute;
+    width: 320px;
+    height: 368px;
+    left: 0px;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.block1__infoCPS{
+    position: absolute;
+    height: 90px;
+    width: 288px;
+    left: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+}
+.link__icon-read-further{
+    position: absolute;
+    height: 10px;
+    width: 7px;
+    left: 24px;
+    top: 127px;
+}
+.link__read-more{
+    position: absolute;
+    height: 24px;
+    width: 100px;
+    left: 48px;
+    top: 120px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1B1C21;
+    white-space: nowrap;
+}
+
+.block1__background-img {
+    position: absolute;
+    height: 176px;
+    width: 320px;
+    left: 0px;
+    top: 160px;
+}
